@@ -10,7 +10,6 @@ const CardComponent = ({Header}) => {
     return(
 
           Header.map((card, idx) => {
-            debugger;
             return(
            <div style={{padding:"2px"}}>
            <Card
